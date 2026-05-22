@@ -1,0 +1,121 @@
+Backlog de 2 semanas
+Semana 1 — Fundamento jogável
+Dia 1
+criar projeto Unity 2D
+configurar input
+montar cena da arena
+colocar player com movimento básico
+
+Entregável: personagem anda na arena
+
+Dia 2
+implementar mira + arma principal
+tiro/projétil
+colisão básica
+dummy target
+
+Entregável: combat loop básico funcionando
+
+Dia 3
+criar inimigo Grunt
+chase até o player
+dano por contato
+HP e morte do player
+
+Entregável: já existe derrota real
+
+Dia 4
+adicionar pool de inimigos/projéteis
+spawn points simples
+HUD de HP + timer + kills
+
+Entregável: micro loop já jogável
+
+Dia 5
+criar PlayerStatsTracker
+métricas: kills/min, dano recente, vida relativa
+log interno ou debug text temporário
+
+Entregável: telemetria mínima pronta
+
+Dia 6
+implementar DirectorController
+threatScore inicial
+estados Relax / Flow / Pressure
+
+Entregável: diretor já influencia spawn
+
+Dia 7
+ajustar sensação geral
+primeira build Web de teste
+corrigir bugs de input/performance
+
+Entregável: vertical slice bruto jogável no browser
+
+Semana 2 — Polimento e valor de portfólio
+Dia 8
+adicionar inimigo Charger
+ajustar spawn cost por tipo
+balancear mix de inimigos
+
+Entregável: variedade tática
+
+Dia 9
+adicionar terceiro inimigo
+refinar comportamento e leitura visual
+
+Entregável: trio de ameaças distintas
+
+Dia 10
+pickups de vida
+diretor controlando drop chance
+pequena janela de respiro adaptativa
+
+Entregável: o jogador sente que o jogo reage
+
+Dia 11
+mini-evento do diretor
+exemplo: “surge wave” por 10 segundos
+cooldown de evento
+texto no debug explicando por quê
+
+Entregável: momento marcante para vídeo
+
+Dia 12
+debug overlay final
+exibir:
+state
+threatScore
+spawnBudget
+recentDamage
+killRate
+rationale
+
+Entregável: material forte para recrutador
+
+Dia 13
+polimento visual leve
+feedback de hit
+screenshake suave
+som básico
+
+Entregável: jogo com mais impacto
+
+Dia 14
+build Web final
+testes
+gravação de GIF/vídeo
+subir no portfólio com descrição técnica
+
+Entregável: peça de portfólio publicável
+
+Critérios de pronto
+
+Considere “pronto” quando estas condições forem verdade:
+
+dá para abrir e jogar no navegador sem fricção
+a partida dura pelo menos 5 minutos de forma interessante
+o painel de debug deixa claro que existe um sistema adaptativo
+o jogador percebe diferença entre dominar e sofrer
+a build não está pesada demais
+o GitHub está limpo e organizado
